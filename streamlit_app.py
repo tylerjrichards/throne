@@ -8,7 +8,12 @@ st.set_page_config(layout="wide")
 
 st.title("🍔 Throne's Supersize Me Analysis 🍔")
 st.markdown("""A truly wild person on [Twitter](https://x.com/ScottHickle), Scott Hickle, decided to
-            give the ultimate sacrifice for science and replicate the Supersize experiment""")
+            give the ultimate sacrifice for science and replicate the Supersize experiment while wearing
+            every piece of health tracking technology he could get his hands on. He also has a stool focused
+            company called Throne.""")
+st.markdown("""The above is **catnip** to me. Will his heart rate get crushed? Will his poops be watery? Let's find out!
+            I will add more data as he open sources more and more of it. Data is [here](https://github.com/tylerjrichards/throne).""")
+st.markdown("Made with ❤️ by [Tyler Richards](https://x.com/tylerjrichards).")
 
 #import data from data folder
 hevy_workout = pd.read_csv('data/hevy_workout_data.csv')
