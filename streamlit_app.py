@@ -6,7 +6,9 @@ from streamlit_extras.chart_container import chart_container
 
 st.set_page_config(layout="wide")
 
-st.title("🍔 Throne's Super Size Me Analysis 🍔")
+st.title("🍔 Throne's Supersize Me Analysis 🍔")
+st.markdown("""A truly wild person on [Twitter](https://x.com/ScottHickle), Scott Hickle, decided to
+            give the ultimate sacrifice for science and replicate the Supersize experiment""")
 
 #import data from data folder
 hevy_workout = pd.read_csv('data/hevy_workout_data.csv')
